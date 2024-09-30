@@ -16,7 +16,7 @@ const Benefits = () => {
           {benefits.map((item) => (
             <div
               key={item.id}
-              className='block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]'
+              className='block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[30rem] md:mx-auto'
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}>
